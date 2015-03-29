@@ -204,6 +204,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (= 4.2.1)
   byebug (= 3.4.0)
   coffee-rails (= 4.1.0)
   guard-minitest (= 2.3.1)
