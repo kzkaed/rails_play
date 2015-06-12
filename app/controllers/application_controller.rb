@@ -4,7 +4,11 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def test
-    render text: "testing 123";
+    render text: 'test';
+  end
+
+  def index
+    render 'login/index'
   end
 
 
