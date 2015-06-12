@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'spec_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
   test "should get home" do
@@ -12,3 +13,5 @@ class StaticPagesControllerTest < ActionController::TestCase
   end
 
 end
+
+
